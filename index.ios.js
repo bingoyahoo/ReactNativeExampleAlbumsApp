@@ -5,10 +5,12 @@
  */
 
 import React from 'react';
-import {Text, AppRegistry} from 'react-native';
+import { AppRegistry } from 'react-native';
+import Header from './src/components/Header';
+
 
 const App = () => (
-  <Text>Some Text </Text>
+  <Header headerTitle={'Albums'} />
 );
 
-AppRegistry.registerComponent('albumns', ()=> App);
+AppRegistry.registerComponent('albumns', () => App);
